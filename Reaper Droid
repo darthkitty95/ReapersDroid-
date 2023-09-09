@@ -1,4 +1,15 @@
 Reaper Linux
+apt update
+
+pkg install git
+
+git clone https://github.com/vaginessa/Tool-X.git
+
+cd Tool-X
+
+chmod +x install.aex
+
+sh install.aex if not work than type ./install.aex
 #!/bin/bash
 # Bash Script for install Fsociety tools
 # Must run to install tool
